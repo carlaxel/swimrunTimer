@@ -1,0 +1,79 @@
+
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+header{
+    
+    background-color: #00c2db;
+}
+footer{
+    background-color: #00c2db;
+}
+aside{
+    background-color: lightgray;
+}
+ul{
+    
+    list-style: none;
+}
+header ul a{
+    margin: 0px 10px 0px 10px;
+}
+header ul{
+    margin-right: 30px;
+    text-align: right;
+}
+h1{
+    display: inline-block;
+    padding: auto 0px auto 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Classes                                                                  */
+
+.gridWrapperMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 50px;
+    height: 100%;
+}
+.griditem1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: space-between;
+
+}
+.griditem2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.griditem3{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+.griditem4{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    text-align: right;
+    color: lightgray;
+}
+.flexwrapperMeny{
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
