@@ -1,0 +1,15 @@
+team = [
+    {
+        "deltagare1": "blabla",
+        "deltagare2": "blabla2",
+        "lagNummer": "1",
+        "raceTid": 0
+},
+{
+        "deltagare1": "blabla",
+        "deltagare2": "blabla2",
+        "lagNummer": "1",
+        "raceTid": 0
+},
+
+];
